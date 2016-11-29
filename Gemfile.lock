@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    boto (0.1.0)
+      dotenv (~> 2.1.1)
+    byebug (9.0.3)
+    coderay (1.1.1)
+    dotenv (2.1.1)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.10.0)
+      faraday (>= 0.7.4, < 0.10)
+    foxy (0.1.0)
+      faraday (~> 0.9.2)
+      faraday_middleware (~> 0.10.0)
+      patron (~> 0.6.1)
+    htmlbeautifier (1.2.0)
+    iconv (1.0.4)
+    method_source (0.8.2)
+    multipart-post (2.0.0)
+    patron (0.6.3)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.4.0)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    rchardet (1.6.1)
+    rouge (2.0.6)
+    ruby-progressbar (1.8.1)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  boto
+  dotenv
+  foxy
+  htmlbeautifier
+  iconv
+  pry
+  pry-byebug
+  rchardet
+  rouge
+  ruby-progressbar
+
+BUNDLED WITH
+   1.11.2
