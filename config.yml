@@ -1,0 +1,14 @@
+---
+chat_id: 5327565
+sites:
+  idealista:
+    url: "http://www.idealista.com/"
+    rate_limit: 3.0 # 3.0/1
+    search_paths:
+      - "areas/alquiler-viviendas/con-precio-hasta_1000,exterior,ultimas-plantas,plantas-intermedias/?shape=%28%28_nwuFprsUeaAuAcYaNwF_Gcd%40%7BKxA%7BtAdqBUd%5DrGzg%40zK%60LfQePj_Awm%40%60T%29%29&ordenado-por=fecha-publicacion-desc"
+      - "alquiler-viviendas/madrid/chamberi/con-precio-hasta_1000,metros-cuadrados-mas-de_40,de-un-dormitorio,de-dos-dormitorios,de-tres-dormitorios,de-cuatro-cinco-habitaciones-o-mas,exterior,ultimas-plantas,plantas-intermedias/?ordenado-por=fecha-publicacion-desc"
+  fotocasa:
+    url: "http://www.fotocasa.es/es/"
+    rate_limit: 3.0 # 3.0/1
+    search_paths:
+      - "alquiler/casas/madrid-capital/todas-las-zonas/l?text=28054&searchOriginId=2"

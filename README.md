@@ -1,12 +1,12 @@
 # Boto Example
 
-Example for [http://github.com/weapp/boto](boto) gem
+Example for [boto](http://github.com/weapp/boto) gem
 
 ## Installation
 
-	  $ bundle install
+	$ bundle install
 
-    $ TELEGRAM_TOKEN=YOUR_TOKEN_HERE bundle exec boto server
+    $ TELEGRAM_TOKEN=YOUR_TOKEN_HERE bundle exec ruby app.rb
 
     Note: You can add your token to .env file too
 
